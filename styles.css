@@ -158,6 +158,18 @@ nav {
 .about-image {
   flex: 1;
   text-align: center;
+
+  .image-placeholder {
+    width: 300px;
+    height: 300px;
+    background-color: #9cb3d3;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 6rem;
+  }
 }
 
 .about-image img {
@@ -254,7 +266,7 @@ nav {
 }
 
 .contact-container {
-  display: flex;  
+  display: flex;
   gap: 50px;
   justify-content: center;
 }
